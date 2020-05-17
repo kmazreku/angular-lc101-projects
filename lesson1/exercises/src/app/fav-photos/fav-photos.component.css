@@ -1,13 +1,24 @@
-h3 {
-  color: brown;
+.photos {
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  line-height: 1.5em;
 }
-
+.img_container {
+  width: 33.3%;
+  float: left;
+  min-height: 230px;
+  background: #000;
+}
 .photos img {
-  width: 450px;
+  width: 100%;
   height: auto;
 }
 
-.photos {
-  text-align: center;
-  padding-top: 50px;
+.photos h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #fff;
+  padding-bottom: 20px;
 }
